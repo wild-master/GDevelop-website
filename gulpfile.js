@@ -65,7 +65,9 @@ gulp.task('ejs', function (cb) {
 		    .pipe(ejs({
 		    	//The EJS helper function to be used to wrap any string to be translated
 		    	_: function(str) {
-			    	if (catalog.hasOwnProperty(str)) {
+		    		if (str == "__langCode__") {
+		    			return langCode;
+		    		} else if (catalog.hasOwnProperty(str)) {
 			    		return catalog[str];
 			    	}
 

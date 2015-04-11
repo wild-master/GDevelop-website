@@ -1,3 +1,5 @@
+var lang = "en";
+
 $(document).ready(function(){
     $('body').scrollspy({ target: '.nav-page' });
 
@@ -9,6 +11,8 @@ $(document).ready(function(){
 	    }, 500);
 	    return false;
 	});
+	lang = $('html').attr('lang');
+	console.log("Language: " + lang);
 
 	//Side menu show/hide
 	var sideMenu = $(".side-menu");
@@ -86,7 +90,7 @@ function onWinDl(alternateDl) {
 	downloaded = true;
 
 	console.log("Windows", alternateDl);
-	window.ga('send', 'event', "download-en", "click", "win-" + (alternateDl ? "archive" : "installer"));
+	window.ga('send', 'event', "download-" + lang, "click", "win-" + (alternateDl ? "archive" : "installer"));
 }
 
 function onUbuntuDl() {
@@ -94,7 +98,7 @@ function onUbuntuDl() {
 	downloaded = true;
 
 	console.log("Ubuntu");
-	window.ga('send', 'event', "download-en", "click", "ubuntu");
+	window.ga('send', 'event', "download-" + lang, "click", "ubuntu");
 }
 
 function onLinuxDl(flavour) {
@@ -102,7 +106,7 @@ function onLinuxDl(flavour) {
 	downloaded = true;
 
 	console.log("Linux", flavour);
-	window.ga('send', 'event', "download-en", "click", "linux-"+flavour);
+	window.ga('send', 'event', "download-" + lang, "click", "linux-"+flavour);
 }
 
 function onOSXDl() {
@@ -110,7 +114,7 @@ function onOSXDl() {
 	downloaded = true;
 
 	console.log("OSX");
-	window.ga('send', 'event', "download-en", "click", "osx");
+	window.ga('send', 'event', "download-" + lang, "click", "osx");
 }
 
 function onGitHubOpened() {
