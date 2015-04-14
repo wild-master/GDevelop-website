@@ -10,8 +10,10 @@ var async = require('async');
 var wiredep = require('wiredep').stream;
 var fs = require('fs');
 var path = require('path');
+var imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant');
 
-gulp.task('default', ['sass', 'uglify', 'wiredep']);
+gulp.task('default', ['sass', 'uglify', 'wiredep', 'imagemin']);
 
 /**
  * Build styles files
@@ -119,6 +121,19 @@ gulp.task('watch', function () {
     gulp.watch('src/styles/**/*.scss', ['sass']);
     gulp.watch('src/js/*.js', ['uglify']);
     gulp.watch(['src/*.ejs', 'locale/*.json'], ['wiredep']);
+});
+
+/**
+ * Minimize assets size
+ */
+gulp.task('imagemin', function () {
+    return gulp.src('src/assets/**/*')
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()]
+        }))
+        .pipe(gulp.dest('public/assets'));
 });
 
 /**
