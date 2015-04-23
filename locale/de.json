@@ -28,7 +28,7 @@
   "HTML5 & native games":"HTML5 & systemeigene Spiele",
   "GDevelop flexible architecture allows you to choose if you want to create an <b>HTML5 game<\/b> that can be played on the web and exported to Android, or a <b>native game<\/b> for your operating system. Or activate both platforms and export your game everywhere!":"GDevelops flexible Architektur ermöglicht es Ihnen auszuwählen, ob Sie ein <b>HTML5-Spiel<\/b> erstellen möchten, das im Internet gespielt werden kann oder für Android oder als ein <b>systemeigenes Spiel<\/b> für Ihr Betriebssystem exportiert werden soll. Oder aktivieren Sie beide Plattformen zu, und exportieren Sie Ihr Spiel überall hin!",
   "Create games for Android and iOS without programming":"Spiele für Android und iOS ohne Programmierung erstellen",
-  "GDevelop features are provided thanks to extensions, allowing you to embed into your game just what you need. Here is a short list of what you get when using GD!":"GDevelop features are provided thanks to extensions, allowing you to embed into your game just what you need. Here is a short list of what you get when using GD!",
+  "GDevelop features are provided thanks to extensions, allowing you to embed into your game just what you need. Here is a short list of what you get when using GD!":"GDevelop Funktionen können dank Erweiterungen angeboten werden. Das ermöglicht ihnen  genau das, was Sie brauchen, in Ihr Spiel zu integrieren. Hier ist eine kurze Liste dessen, was Sie bekommen, wenn Sie GD verwenden!",
   "Tons of objects ready to be used":"Unmengen von Objekten stehen zur Verwendung bereit",
   "Sprites with multiple animations":"Sprites mit mehreren Animationen",
   "\"9 patch\" and tiled sprites":"\"9 Patch\" und gekachelte Sprites",
@@ -115,5 +115,5 @@
   "<small>Browse all<\/small> GDevelop ecosystem<\/span>":"<small>Durchsuchen Sie das gesamte<\/small> GDevelop Ökosystem<\/span>",
   "Follow GDevelop":"Folgen Sie GDevelop",
   "GDevelop was created with <span class=\"glyphicon glyphicon-heart\"><\/span> by":"GDevelop wurde mit <span class=\"glyphicon glyphicon-heart\"><\/span> erstellt, von",
-  ", with contributors adding features, fixing bugs, sending new examples, improving the wiki, helping each other on <a href=\"http:\/\/forum.compilgames.net\" target=\"_blank\">the forum<\/a>.":", with contributors adding features, fixing bugs, sending new examples, improving the wiki, helping each other on <a href=\"http:\/\/forum.compilgames.net\" target=\"_blank\">the forum<\/a>."
+  ", with contributors adding features, fixing bugs, sending new examples, improving the wiki, helping each other on <a href=\"http:\/\/forum.compilgames.net\" target=\"_blank\">the forum<\/a>.":", mit Mitstreitern, die Funktionen hinzufügen, Fehler beheben, neue Beispiele erstellen, die Wiki-Dokumentation verbessern und sich gegenseitig im <a href=\"http:\/\/forum.compilgames.net\" target=\"_blank\">Forum<\/a> helfen."
 }

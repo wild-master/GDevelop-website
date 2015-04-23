@@ -20,6 +20,7 @@ Redirect 301 /ide.php /main-fr.html
 Redirect 301 /presentation.php /main-fr.html
 Redirect 301 /fonctions.html /main-fr.html
 Redirect 301 /jeux.html /main-fr.html
+Redirect 301 /Rgst-Jrc.php /main-fr.html
 
 Redirect 301 /contactEN.php /main.html
 Redirect 301 /contribute.php /main.html
