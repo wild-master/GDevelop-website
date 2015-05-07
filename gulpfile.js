@@ -127,7 +127,11 @@ gulp.task('watch', function () {
  * Minimize assets size
  */
 gulp.task('imagemin', function () {
-    return gulp.src('src/assets/**/*')
+	//Do not minimize this file, quality is too low
+	gulp.src('src/assets/jumbotron-bg.png')
+	    .pipe(gulp.dest('public/assets'));
+
+    return gulp.src(['src/assets/**/*', '!src/assets/jumbotron-bg.png'])
         .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
