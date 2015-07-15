@@ -109,7 +109,8 @@ gulp.task('update-translation', function () {
 		})
 	    .pipe(ejs({
 	    	"_": function(str) {
-		    	allStrings[str] = str;
+	    		if (str !== "__langCode__")
+		    		allStrings[str] = str;
 		    }
 		}).on('error', gutil.log));
 });
