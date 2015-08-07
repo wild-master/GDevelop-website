@@ -258,7 +258,8 @@ hr {
     margin: 0 5px; }
   .section-gallery .games-carousel .game-screenshot {
     max-width: 100%;
-    max-height: 50vh; }
+    max-height: 50vh;
+    margin: auto; }
   .section-gallery .your-game {
     font-family: 'lobster_1.4regular', Arial, sans-serif;
     font-size: 1.3em;
