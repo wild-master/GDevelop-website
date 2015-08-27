@@ -57,3 +57,16 @@ hr {
 	margin-bottom: 30px;
 	@include centered-div(70%)
 }
+
+.btn-appstore {
+	background-image: url(../assets/DownloadAppStore.svg);
+    width: 155px;
+    height: 46px;
+	display: inline-block;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 0 #575F63;
+    border-radius: 5px;
+}

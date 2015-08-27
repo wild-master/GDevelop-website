@@ -37,6 +37,18 @@ hr {
   margin-left: auto;
   margin-right: auto; }
 
+.btn-appstore {
+  background-image: url(../assets/DownloadAppStore.svg);
+  width: 155px;
+  height: 46px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 0 #575F63;
+  border-radius: 5px; }
+
 /*A section is used to cut the page into rows*/
 .section, .section-screen, .section-landing, .section-events, .section-gallery, .section-foss, .section-html5-native, .section-expandable, .section-download, .section-features, .section-community, .section-feedback {
   font-family: 'Open Sans', sans-serif;
@@ -406,6 +418,18 @@ hr {
   width: 70%;
   margin-left: auto;
   margin-right: auto; }
+
+.btn-appstore {
+  background-image: url(../assets/DownloadAppStore.svg);
+  width: 155px;
+  height: 46px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 0 #575F63;
+  border-radius: 5px; }
 
 footer {
   padding-top: 10px; }

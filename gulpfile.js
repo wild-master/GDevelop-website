@@ -121,6 +121,7 @@ gulp.task('update-translation', function () {
 gulp.task('watch', function () {
     gulp.watch('src/styles/**/*.scss', ['sass']);
     gulp.watch('src/js/*.js', ['uglify']);
+    gulp.watch('src/assets/**/*.svg', ['copy-svg']);
     gulp.watch(['src/*.ejs', 'locale/*.json'], ['wiredep']);
 });
 
@@ -139,6 +140,14 @@ gulp.task('imagemin', function () {
             use: [pngquant()]
         }))
         .pipe(gulp.dest('public/assets'));
+});
+
+/**
+ * Copy svg assets files
+ */
+gulp.task('copy-svg', function() {
+	return gulp.src('src/assets/**/*.svg')
+	    .pipe(gulp.dest('public/assets'));
 });
 
 /**
