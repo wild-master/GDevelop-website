@@ -17,6 +17,23 @@
 
 	.phone-game {
 		width: 50%;
-		float: right;
+		position: absolute;
+		left: 50%;
+		top: 60vh;
+		transform: translateY(-50%);
+		margin-left: -10px;
+
+		.phone-ad {
+			background: transparent;
+			position: absolute;
+			left: 12.50%;
+			top: 6.40%;
+			width: 75.1%;
+			height: 16%;
+		}
+
+		img {
+			width: 100%;
+		}
 	}
 }

@@ -339,7 +339,20 @@ hr {
   background-size: contain; }
 .section-html5-native .phone-game {
   width: 50%;
-  float: right; }
+  position: absolute;
+  left: 50%;
+  top: 60vh;
+  transform: translateY(-50%);
+  margin-left: -10px; }
+  .section-html5-native .phone-game .phone-ad {
+    background: transparent;
+    position: absolute;
+    left: 12.5%;
+    top: 6.4%;
+    width: 75.1%;
+    height: 16%; }
+  .section-html5-native .phone-game img {
+    width: 100%; }
 
 .section-feedback .user-feedback {
   font-size: 2em;
