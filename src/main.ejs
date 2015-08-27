@@ -77,6 +77,7 @@
           <li class="active"><a href="#home"><%= _('GDevelop') %></a></li>
           <li><a href="#events" role="section-link"><%= _('Events') %></a></li>
           <li><a href="#html5-and-native" role="section-link"><%- _('HTML5 <br>&amp; native games') %></a></li>
+          <li><a href="#documentation" role="section-link"><%- _('Documentation <br>&amp; tutorials') %></a></li>
           <li><a href="#features" role="section-link"><%= _('Features') %></a></li>
           <li><a href="#open-source-multilanguage" role="section-link"><%- _('Open source <br>&amp; multilanguage') %></a></li>
           <li><a href="#games-gallery" role="section-link"><%= _('Games gallery') %></a></li>
@@ -148,8 +149,32 @@
         <img src="assets/phone-with-game.png" alt="<%= _('Create games for Android and iOS without programming') %>" class="phone-game" />
       </div>
       <div class="chrome-game"></div>
+      <a href="#documentation" role="section-link" class="scroll-down"><i class="fa fa-angle-down"></i></a>
+    </div>
+
+    <!-- Documentation section -->
+    <div class="section-documentation" id="documentation">
+      <div class="row title-row documentation-title">
+        <div class="col-md-12">
+          <h4><%- _('Documentation & tutorials <small>on the collaborative wiki</small>') %></h4>
+        </div>
+      </div>
+      <div class="row foss-explanation-row">
+        <div class="col-md-12 text-center">
+          <p><%- _('Want to learn step-by-step how to use GDevelop, or need help about a specific feature? The wiki has tutorials for beginners and a complete documentation concerning the software.') %></p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-offset-1 col-md-10">
+          <a href="http://wiki.compilgames.net/doku.php/gdevelop/tutorials/howtomakeeaplatformergame" target="_blank" class="btn btn-lg btn-primary"><%= _('Learn how to create a platformer game') %></a>
+          <a href="http://wiki.compilgames.net/doku.php/gdevelop/tutorials/howtouseintelxdk" target="_blank" class="btn btn-lg btn-primary"><%= _('How to publish your game on Android or iOS') %></a>
+        </div>
+      </div>
+      
+      <div class="background"></div>
       <a href="#features" role="section-link" class="scroll-down"><i class="fa fa-angle-down"></i></a>
     </div>
+
 
     <!-- Features section -->
     <div class="section-features section-color-dark" id="features">
