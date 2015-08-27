@@ -92,6 +92,7 @@
   "Download for Windows":"下载 for Windows",
   "also available":"也可用",
   "without installer":"无安装程序",
+  "GDevelop is available for <a href=\"http:\/\/www.ubuntu.com\/download\/desktop\">Ubuntu 64bits<\/a> only!":"GDevelop is available for <a href=\"http:\/\/www.ubuntu.com\/download\/desktop\">Ubuntu 64bits<\/a> only!",
   "Open a terminal by pressing":"透过按键打开终端",
   "Then type (and press enter after each line):":"然后打入 (并在每行之后按输入键)：",
   "You're done! Type GDevelop in the launch search bar to start.":"你完成了 ！在启动搜索栏中打入 GDevelop 来开始。",

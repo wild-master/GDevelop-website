@@ -1,5 +1,5 @@
 {
-  "Open source game creation software: No programming or coding is required! Make HTML5 and natives games for Windows, Linux (Ubuntu) and Mac OS X. Quickly build and share your games on mobile (Android and iOS) and on the web.":"برنامج مجاني مفتوح المصدر لعمل الألعاب: لا يحتاج أي برمجة أو لغة ترميز! اصنع ألعاب الويب html5 و ألعاب الويندوز، اللينكس(اوبنتو) و الماك. ابني و انشر ألعابك بسرعة على الأندرويد و ios و على شبكة الانترنت.",
+  "Open source game creation software: No programming or coding is required! Make HTML5 and natives games for Windows, Linux (Ubuntu) and Mac OS X. Quickly build and share your games on mobile (Android and iOS) and on the web.":"برنامج مجاني مفتوح المصدر لعمل الألعاب: لا يحتاج أي برمجة أو لغة ترميز! اصنع ألعاب الويب \"html5\" و ألعاب الويندوز، اللينكس(اوبنتو) و الماك. ابني و انشر ألعابك بسرعة على الأندرويد و أي أو اس على شبكة الانترنت.",
   "GDevelop - Create games without programming - Open source HTML5 and native game creator":"Gdevelop - إنشئ ألعاب بدون برمجة - صانع الألعاب الأصلية و الويب html5 المجاني و المفتوح المصدر",
   "Menu":"القائمة",
   "Community":"المجتمع",
@@ -19,7 +19,7 @@
   "Open source <br>&amp; multilanguage":"مصدر المفتوح <br>&amp; متعدد اللغات",
   "Games gallery":"معرض الألعاب",
   "Download":"التنزيل",
-  "Create your own games!":"انشئ ألعابك الخاصة بك!",
+  "Create your own games!":"! انشئ ألعابك الخاصة بك",
   "GDevelop is an <span class=\"foss\">open source<\/span>, <span class=\"cp\">cross-platform<\/span> game creator designed to be used by <span class=\"everyone\">everyone<\/span> - no programming skills required.":"Gdevelop هو <span class=\"foss\"> مفتوح المصدر<\/span>، <span class=\"cp\"> متعدد المنصات<\/span> صانع الألعاب المصمم لاستخدام <span class=\"everyone\"> الجميع<\/span>-من غير مهارات برمجة مطلوبة.",
   "Learn more":"معرفة المزيد",
   "What makes GDevelop unique and so easy to use are the events. Events are a powerful way to express the logic of your game, without having to learn a programming language.":"الذي يجعل Gdevelop فريدا من نوعه و سهل الاستخدام هو نظام الأحداث. نظام الأحداث هو وسيلة قوية للتعبير عن منطق لعبتك، من غير الحاجة لتعلم أي لغة برمجة.",
@@ -92,6 +92,7 @@
   "Download for Windows":"التنزيل لويندوز",
   "also available":"متوفر أيضا",
   "without installer":"دون المثبت",
+  "GDevelop is available for <a href=\"http:\/\/www.ubuntu.com\/download\/desktop\">Ubuntu 64bits<\/a> only!":"GDevelop متاحة فقط لأجل <a href=\"http:\/\/www.ubuntu.com\/download\/desktop\">Ubuntu 64bits<\/a> !",
   "Open a terminal by pressing":"قم بفتح المعبر بالضغط",
   "Then type (and press enter after each line):":"ثم اكتب (واضغط enter بعد كل سطر):",
   "You're done! Type GDevelop in the launch search bar to start.":"لقد انتهيت! اكتب Gdevelop في شريط البحث لبدء تشغيل.",

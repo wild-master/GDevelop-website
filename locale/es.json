@@ -92,6 +92,7 @@
   "Download for Windows":"Descargar para Windows",
   "also available":"también disponible",
   "without installer":"sin instalador",
+  "GDevelop is available for <a href=\"http:\/\/www.ubuntu.com\/download\/desktop\">Ubuntu 64bits<\/a> only!":"¡GDevelop está disponible sólamente para <a href=\"http:\/\/www.ubuntu.com\/download\/desktop\">Ubuntu 64bits<\/a>!",
   "Open a terminal by pressing":"Abre una terminal presionando",
   "Then type (and press enter after each line):":"Luego escribe (y presiona Enter después de cada linea):",
   "You're done! Type GDevelop in the launch search bar to start.":"¡Terminaste! Escribe GDevelop en la barra de lanzamiento\/búsqueda para comenzar.",
