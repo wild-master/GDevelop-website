@@ -37,7 +37,7 @@ $(document).ready(function(){
 	//Carousels
 	$('.games-carousel').slick({
 		centerMode: true,
-		slidesToShow: 2,
+		slidesToShow: 3,
 		arrows: false,
 		slidesToScroll: 2,
 		autoplay: true,
