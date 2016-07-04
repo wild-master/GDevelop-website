@@ -58,4 +58,20 @@
 		background: url(../assets/landing-screen.png) no-repeat center top;
 		background-size: cover;
 	}
+
+	.bub-banner {
+		display: block;
+		position: absolute;
+    z-index: 3;
+    bottom: 5px;
+    left: 5px;
+
+		.btn {
+			position: absolute;
+			bottom: 35px;
+			left: 0;
+			margin: auto;
+			width: 100%;
+		}
+	}
 }

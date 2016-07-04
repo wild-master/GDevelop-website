@@ -1,0 +1,111 @@
+@import "../tab-mixins/tab-mixins";
+
+.section-lil-bub-game {
+	@extend .section-screen;
+
+	padding: 0;
+	padding-top: 25px;
+	background-color: black;
+	color: white;
+
+
+	.star-background {
+		background: url(../assets/bub/Stars.png) repeat;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+    z-index: -2;
+	}
+
+	.big-banner {
+		background: url(../assets/bub/big-banner.gif) no-repeat bottom;
+    background-size: contain;
+		max-width: 90%;
+    width: 90%;
+    height: 40%;
+    margin: auto;
+		margin-bottom: 15px;
+
+		@media (min-width: $screen-sm-min) {
+	    width: 60%;
+			max-width: 500px;
+		}
+	}
+
+	.screenshots-background {
+		background: url(../assets/bub/screenshots-background.jpg) no-repeat bottom;
+		background-size: contain;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 200px;
+    z-index: -2;
+	}
+
+
+	.intro {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+		background-color: black;
+		text-align: justify;
+
+		font-size: 1.2em;
+		border: 1px solid #17c4fa;
+    box-shadow: 0 0 12px #17c4fa;
+		margin-bottom: 15px;
+	}
+
+
+	.kickstarter-row {
+		margin-bottom: 15px;
+
+		.ks-button {
+		    display: inline-block;
+		    width: 100%;
+		    border-radius: 5px;
+		    background: white;
+		    text-align: center;
+		    padding-bottom: 9px;
+		    padding-top: 5px;
+		    font-family: Drewtype;
+		    text-decoration: none;
+		    color: black;
+		    margin-bottom: 3px;
+		}
+
+		.ks-button img {
+		    max-height: 20px;
+		    display: block;
+		    margin: auto;
+		}
+	}
+
+	.app-store-button {
+	    display: block;
+	    text-align: center;
+	    margin: 4px;
+	}
+
+	.app-store-button img {
+	    max-width: 100%;
+	    max-height: 58px;
+	    border: 1px solid white;
+	    border-radius: 11px;
+	}
+
+	.play-store-button {
+	    display: block;
+	    text-align: center;
+	    margin: 4px;
+	}
+
+	.play-store-button img {
+	    max-width: 100%;
+	    max-height: 60px;
+	}
+
+}

@@ -50,13 +50,13 @@ hr {
   border-radius: 5px; }
 
 /*A section is used to cut the page into rows*/
-.section, .section-screen, .section-landing, .section-events, .section-gallery, .section-foss, .section-html5-native, .section-documentation, .section-expandable, .section-download, .section-features, .section-community, .section-feedback, .section-donate {
+.section, .section-screen, .section-landing, .section-events, .section-gallery, .section-foss, .section-html5-native, .section-documentation, .section-lil-bub-game, .section-expandable, .section-download, .section-features, .section-community, .section-feedback, .section-donate {
   font-family: 'Open Sans', sans-serif;
   padding: 25px;
   font-size: 1.2em;
   background-color: #f1f2f2;
   color: #8c8c8c; }
-  .section .scroll-down, .section-screen .scroll-down, .section-landing .scroll-down, .section-events .scroll-down, .section-gallery .scroll-down, .section-foss .scroll-down, .section-html5-native .scroll-down, .section-documentation .scroll-down, .section-expandable .scroll-down, .section-download .scroll-down, .section-features .scroll-down, .section-community .scroll-down, .section-feedback .scroll-down, .section-donate .scroll-down {
+  .section .scroll-down, .section-screen .scroll-down, .section-landing .scroll-down, .section-events .scroll-down, .section-gallery .scroll-down, .section-foss .scroll-down, .section-html5-native .scroll-down, .section-documentation .scroll-down, .section-lil-bub-game .scroll-down, .section-expandable .scroll-down, .section-download .scroll-down, .section-features .scroll-down, .section-community .scroll-down, .section-feedback .scroll-down, .section-donate .scroll-down {
     transition: background-color 0.5s ease;
     transition: border-color 0.5s ease;
     margin-bottom: 10px;
@@ -78,21 +78,21 @@ hr {
     left: 50%;
     margin-left: -32px;
     transition: height 0.5s ease; }
-    .section .scroll-down:hover, .section-screen .scroll-down:hover, .section-landing .scroll-down:hover, .section-events .scroll-down:hover, .section-gallery .scroll-down:hover, .section-foss .scroll-down:hover, .section-html5-native .scroll-down:hover, .section-documentation .scroll-down:hover, .section-expandable .scroll-down:hover, .section-download .scroll-down:hover, .section-features .scroll-down:hover, .section-community .scroll-down:hover, .section-feedback .scroll-down:hover, .section-donate .scroll-down:hover, .section .scroll-down:active, .section-screen .scroll-down:active, .section-landing .scroll-down:active, .section-events .scroll-down:active, .section-gallery .scroll-down:active, .section-foss .scroll-down:active, .section-html5-native .scroll-down:active, .section-documentation .scroll-down:active, .section-expandable .scroll-down:active, .section-download .scroll-down:active, .section-features .scroll-down:active, .section-community .scroll-down:active, .section-feedback .scroll-down:active, .section-donate .scroll-down:active {
+    .section .scroll-down:hover, .section-screen .scroll-down:hover, .section-landing .scroll-down:hover, .section-events .scroll-down:hover, .section-gallery .scroll-down:hover, .section-foss .scroll-down:hover, .section-html5-native .scroll-down:hover, .section-documentation .scroll-down:hover, .section-lil-bub-game .scroll-down:hover, .section-expandable .scroll-down:hover, .section-download .scroll-down:hover, .section-features .scroll-down:hover, .section-community .scroll-down:hover, .section-feedback .scroll-down:hover, .section-donate .scroll-down:hover, .section .scroll-down:active, .section-screen .scroll-down:active, .section-landing .scroll-down:active, .section-events .scroll-down:active, .section-gallery .scroll-down:active, .section-foss .scroll-down:active, .section-html5-native .scroll-down:active, .section-documentation .scroll-down:active, .section-lil-bub-game .scroll-down:active, .section-expandable .scroll-down:active, .section-download .scroll-down:active, .section-features .scroll-down:active, .section-community .scroll-down:active, .section-feedback .scroll-down:active, .section-donate .scroll-down:active {
       background-color: #73c8ea !important;
       border-color: white; }
-    .section .scroll-down:hover, .section-screen .scroll-down:hover, .section-landing .scroll-down:hover, .section-events .scroll-down:hover, .section-gallery .scroll-down:hover, .section-foss .scroll-down:hover, .section-html5-native .scroll-down:hover, .section-documentation .scroll-down:hover, .section-expandable .scroll-down:hover, .section-download .scroll-down:hover, .section-features .scroll-down:hover, .section-community .scroll-down:hover, .section-feedback .scroll-down:hover, .section-donate .scroll-down:hover {
+    .section .scroll-down:hover, .section-screen .scroll-down:hover, .section-landing .scroll-down:hover, .section-events .scroll-down:hover, .section-gallery .scroll-down:hover, .section-foss .scroll-down:hover, .section-html5-native .scroll-down:hover, .section-documentation .scroll-down:hover, .section-lil-bub-game .scroll-down:hover, .section-expandable .scroll-down:hover, .section-download .scroll-down:hover, .section-features .scroll-down:hover, .section-community .scroll-down:hover, .section-feedback .scroll-down:hover, .section-donate .scroll-down:hover {
       height: 68px; }
-  .section .title-row h4, .section-screen .title-row h4, .section-landing .title-row h4, .section-events .title-row h4, .section-gallery .title-row h4, .section-foss .title-row h4, .section-html5-native .title-row h4, .section-documentation .title-row h4, .section-expandable .title-row h4, .section-download .title-row h4, .section-features .title-row h4, .section-community .title-row h4, .section-feedback .title-row h4, .section-donate .title-row h4 {
+  .section .title-row h4, .section-screen .title-row h4, .section-landing .title-row h4, .section-events .title-row h4, .section-gallery .title-row h4, .section-foss .title-row h4, .section-html5-native .title-row h4, .section-documentation .title-row h4, .section-lil-bub-game .title-row h4, .section-expandable .title-row h4, .section-download .title-row h4, .section-features .title-row h4, .section-community .title-row h4, .section-feedback .title-row h4, .section-donate .title-row h4 {
     font-family: 'latoregular';
     text-align: center;
     font-size: 1.5em;
     margin-top: 0;
     margin-bottom: 30px; }
     @media (min-width: 992px) {
-      .section .title-row h4, .section-screen .title-row h4, .section-landing .title-row h4, .section-events .title-row h4, .section-gallery .title-row h4, .section-foss .title-row h4, .section-html5-native .title-row h4, .section-documentation .title-row h4, .section-expandable .title-row h4, .section-download .title-row h4, .section-features .title-row h4, .section-community .title-row h4, .section-feedback .title-row h4, .section-donate .title-row h4 {
+      .section .title-row h4, .section-screen .title-row h4, .section-landing .title-row h4, .section-events .title-row h4, .section-gallery .title-row h4, .section-foss .title-row h4, .section-html5-native .title-row h4, .section-documentation .title-row h4, .section-lil-bub-game .title-row h4, .section-expandable .title-row h4, .section-download .title-row h4, .section-features .title-row h4, .section-community .title-row h4, .section-feedback .title-row h4, .section-donate .title-row h4 {
         font-size: 3em; } }
-  .section p, .section-screen p, .section-landing p, .section-events p, .section-gallery p, .section-foss p, .section-html5-native p, .section-documentation p, .section-expandable p, .section-download p, .section-features p, .section-community p, .section-feedback p, .section-donate p {
+  .section p, .section-screen p, .section-landing p, .section-events p, .section-gallery p, .section-foss p, .section-html5-native p, .section-documentation p, .section-lil-bub-game p, .section-expandable p, .section-download p, .section-features p, .section-community p, .section-feedback p, .section-donate p {
     opacity: 0.69; }
 
 .section-color-dark {
@@ -107,7 +107,7 @@ hr {
     opacity: 0.89; }
 
 /*A section which has the screen height*/
-.section-screen, .section-landing, .section-events, .section-gallery, .section-foss, .section-html5-native, .section-documentation {
+.section-screen, .section-landing, .section-events, .section-gallery, .section-foss, .section-html5-native, .section-documentation, .section-lil-bub-game {
   position: relative;
   height: 500px;
   /* fallback for older browsers */
@@ -164,6 +164,18 @@ hr {
     bottom: -10%;
     background: url(../assets/landing-screen.png) no-repeat center top;
     background-size: cover; }
+  .section-landing .bub-banner {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    bottom: 5px;
+    left: 5px; }
+    .section-landing .bub-banner .btn {
+      position: absolute;
+      bottom: 35px;
+      left: 0;
+      margin: auto;
+      width: 100%; }
 
 .section-download .nav-tabs {
   display: table;
@@ -384,6 +396,85 @@ hr {
 .section-donate .text-muted {
   opacity: 0.7;
   color: white; }
+
+.section-lil-bub-game {
+  padding: 0;
+  padding-top: 25px;
+  background-color: black;
+  color: white; }
+  .section-lil-bub-game .star-background {
+    background: url(../assets/bub/Stars.png) repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -2; }
+  .section-lil-bub-game .big-banner {
+    background: url(../assets/bub/big-banner.gif) no-repeat bottom;
+    background-size: contain;
+    max-width: 90%;
+    width: 90%;
+    height: 40%;
+    margin: auto;
+    margin-bottom: 15px; }
+    @media (min-width: 992px) {
+      .section-lil-bub-game .big-banner {
+        width: 60%;
+        max-width: 500px; } }
+  .section-lil-bub-game .screenshots-background {
+    background: url(../assets/bub/screenshots-background.jpg) no-repeat bottom;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    z-index: -2; }
+  .section-lil-bub-game .intro {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    text-align: justify;
+    font-size: 1.2em;
+    border: 1px solid #17c4fa;
+    box-shadow: 0 0 12px #17c4fa;
+    margin-bottom: 15px; }
+  .section-lil-bub-game .kickstarter-row {
+    margin-bottom: 15px; }
+    .section-lil-bub-game .kickstarter-row .ks-button {
+      display: inline-block;
+      width: 100%;
+      border-radius: 5px;
+      background: white;
+      text-align: center;
+      padding-bottom: 9px;
+      padding-top: 5px;
+      font-family: Drewtype;
+      text-decoration: none;
+      color: black;
+      margin-bottom: 3px; }
+    .section-lil-bub-game .kickstarter-row .ks-button img {
+      max-height: 20px;
+      display: block;
+      margin: auto; }
+  .section-lil-bub-game .app-store-button {
+    display: block;
+    text-align: center;
+    margin: 4px; }
+  .section-lil-bub-game .app-store-button img {
+    max-width: 100%;
+    max-height: 58px;
+    border: 1px solid white;
+    border-radius: 11px; }
+  .section-lil-bub-game .play-store-button {
+    display: block;
+    text-align: center;
+    margin: 4px; }
+  .section-lil-bub-game .play-store-button img {
+    max-width: 100%;
+    max-height: 60px; }
 
 /*
  * Mixin to create a list of sections based on Bootstrap.
