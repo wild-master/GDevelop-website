@@ -16,7 +16,7 @@
   "Events":"Eventos",
   "HTML5 <br>&amp; native games":"Jogos HTML5 <br>&amp; nativos",
   "Documentation <br>&amp; tutorials":"Documentação <br>&amp;tutoriais",
-  "Features":"Caraterísticas",
+  "Features":"Características",
   "Open source <br>&amp; multilanguage":"Código  fonte aberto <br>&amp; multilinguagem",
   "Games gallery":"Galeria de Jogos",
   "Download":"Download",
@@ -120,6 +120,6 @@
   "(with tutorials!)":"(com tutoriais!)",
   "<small>Browse all<\/small> GDevelop ecosystem<\/span>":"<small>Procurar todos<\/small> os sites relacionados com o GDevelop <\/span>",
   "Follow GDevelop":"Siga o GDevelop",
-  "GDevelop was created with <span class=\"glyphicon glyphicon-heart\"><\/span> by":"O GDevelop foi criado com o <span class=\"glyphicon glyphicon-heart\"><\/span> por",
+  "GDevelop was created with <span class=\"glyphicon glyphicon-heart\"><\/span> by":"O GDevelop foi criado com <span class=\"glyphicon glyphicon-heart\"><\/span> por",
   ", with contributors adding features, fixing bugs, sending new examples, improving the wiki, helping each other on <a href=\"http:\/\/forum.compilgames.net\" target=\"_blank\">the forum<\/a>.":", com colaboradores adicionando recursos, correção de bugs, enviando novos exemplos, melhorando o wiki e ajudando uns aos outros no <a href=\"http:\/\/forum.compilgames.net\" target=\"_blank\"> Fórum<\/a>."
 }
